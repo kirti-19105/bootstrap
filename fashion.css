@@ -172,3 +172,6 @@
 .list:hover {
   color: rgb(185, 99, 185);
 }
+.maps iframe{
+  width: 100%;
+}
