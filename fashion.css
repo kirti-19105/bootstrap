@@ -1,0 +1,174 @@
+.nav-link:hover {
+  color: blue !important;
+}
+.bg1 {
+  background-image: url("./image/h1_hero1.png.webp");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.bg2 {
+  background-image: url("./image/h1_hero2.png.webp");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.bg3 {
+  background-image: url("./image/h1_hero3.png.webp");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.passage {
+  font-size: 80px;
+}
+.btn {
+  height: 50px;
+  width: 150px;
+  background-color: #9f78ff;
+  border-radius: 5px;
+}
+
+.second-page-container {
+  position: relative;
+  text-align: center;
+}
+.second-page-text {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+}
+.second-page-text1 {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: rgba(29, 37, 71, 0.5);
+  width: 93%;
+  height: 15%;
+  color: white;
+}
+.second-page {
+  opacity: 0;
+  transition: 2s;
+}
+.second-page:hover {
+  opacity: 1;
+}
+.heading-page {
+  font-family: Cinzel, serif;
+  text-align: center;
+  /* margin: auto; */
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* font-weight: 600px; */
+}
+.heading-page h1 {
+  font-size: 70px;
+  /* width: 100%; */
+}
+/* .card {
+  text-align: center;
+} */
+.card:hover {
+  transform: scale(0.99);
+  box-shadow: 4px 4px 10px 10px;
+  color: #f5f5f5;
+}
+.card-body i {
+  color: chocolate;
+}
+.card-text-psg:hover {
+  text-decoration: underline;
+}
+.fourth-page {
+  margin-top: 5%;
+  background-image: url("./image/section_bg01.png.webp");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  align-content: center;
+}
+.fourth-page h2 {
+  color: white;
+  font-size: 70px;
+  font-family: "Cinzel", serif;
+}
+/* fifth page  */
+.fifth-page img {
+  width: 100%;
+}
+.fifth-page {
+  position: relative;
+}
+.fifth-page-text {
+  position: absolute;
+  height: 100%;
+  width: 90%;
+  align-content: center;
+  top: 0;
+  /* top: 200px;
+  left: 100px; */
+  color: white;
+}
+.fifth-page-image {
+  overflow: hidden;
+}
+.sixth-page {
+  background-color: #f7f7fd;
+}
+.fifth-page-image:hover img {
+  transform: scale(1.1);
+}
+.fifth-page-image img {
+  transition: 1s;
+}
+.footer-page {
+  background-color: #1d2547;
+  /* height: 70vh; */
+}
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer ul li {
+  list-style: none;
+}
+.footer ul li:hover {
+  text-decoration: underline;
+}
+
+/* shopping page  */
+
+/* head page */
+.head-page {
+  font-size: 80px;
+  font-family: "Cinzel", serif;
+}
+/* history first */
+.history h1 {
+  font-size: 70px;
+  font-family: "Cinzel", serif;
+}
+.image img {
+  width: 100%;
+}
+.right-content h3:hover {
+  color: rgb(185, 99, 185);
+}
+.right-content i:hover {
+  color: rgb(185, 99, 185);
+}
+.left-content1 ul li {
+  list-style: none;
+}
+.list:hover {
+  color: rgb(185, 99, 185);
+}
